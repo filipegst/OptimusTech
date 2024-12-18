@@ -1,0 +1,37 @@
+
+
+.depoimentos_caixa{
+    background-color: var(--vermelho-transparente);
+    text-align: center;
+    padding: 48px 64px;
+    border-radius: 16px;
+    margin: 62px;
+}
+
+
+.depoimentos_titulo{
+    font-weight: 600;
+    color: var(--vermelho);
+    font-size: 0.875rem;
+}
+
+.depoimentos_texto{
+    margin: 16px;
+    font-size: 2.25em;
+    font-weight: 500;
+}
+
+.depoimentos_depoente{
+    padding: 16px;
+}
+
+.depoente_nome{
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.depoente_funcao{
+    font-size: 0.87rem;
+    color: var(--cinza-claro);
+
+}

@@ -1,0 +1,87 @@
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0;
+    gap:64px;
+   
+}
+
+.vagas_cabecalho{
+    text-align: center;
+}
+
+.vagas_imagem{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+}
+
+
+.vagas_etiqueta{
+    display: inline-block;
+    padding: 4px 12px;
+    color: var(--vermelho);
+    background-color: var(--vermelho-transparente);
+    border-radius: 16px;
+
+}
+
+.vagas_caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.vagas_lista{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: start;
+    
+}
+
+
+.vagas_titulo{
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 16px;
+
+}
+
+.vagas_texto{
+    font-size: 1.25rem;
+    margin-bottom: 48px;
+}
+
+
+.vagas_lista_detalhes{
+    display: flex;
+    gap: 24px;
+}
+
+.vagas_lista_itens{
+    width: 100%;
+    list-style: none;
+    border: 1px solid var(--contorno);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+
+.vagas_lista_titulo{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.vagas_lista_funcao{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+
+.vagas_lista_detalhes_periodo, .vagas_lista_detalhes_salario{
+    color: var(--cinza);
+}

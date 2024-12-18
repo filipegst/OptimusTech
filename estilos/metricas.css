@@ -1,0 +1,41 @@
+
+
+.metricas{
+    width: 100%;
+    padding-bottom: 96px;
+    margin: 32px;
+}
+
+.lista_metricas{
+    display: flex;
+    list-style-type: none;
+    /* padding: 0px 32px;
+    margin: 64px; */
+}
+
+.lista_item_metricas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item_metricas_numeros{
+    font-size: 3.75rem;
+    margin-right:2.6rem;
+    color: var(--vermelho);
+}
+
+.item_metricas_titulo{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.item_metricas_texto{
+    color: var(--cinza);
+}
+
+.lista_caixadetexto{
+    margin-right: 32px;
+}
+
+

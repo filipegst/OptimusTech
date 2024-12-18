@@ -1,0 +1,28 @@
+
+
+.sobrenos{
+    text-align: center;
+    padding: 110px;
+}
+
+.sobrenos_titulo{
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.sobrenos_subtitulo{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 12px;
+}
+
+.sobrenos_texto{
+    font-size: 1.25rem;
+    padding-top: 12px;
+    color: var(--cinza);
+}
+
+.sobrenos_texto_caixa{
+   display: inline-block;
+   width: 60%;
+}
